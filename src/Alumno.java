@@ -15,6 +15,10 @@ public class Alumno {
 
     public Alumno(){}
 
+    public void printAlumno(){
+        System.out.println("Nombre: "+this.nombre+"\nEdad: "+this.edad+"\nID: "+this.id+"\nMedia notas: "+mediaNotas());
+    }
+
     public double mediaNotas(){
         int nota=0;
         for(int i=0;i<notas.size();i++){
@@ -58,4 +62,6 @@ public class Alumno {
     public void setNotas(ArrayList <Integer> notas){
         this.notas=notas;
     }
+
+
 }
