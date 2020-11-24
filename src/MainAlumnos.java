@@ -40,7 +40,8 @@ public class MainAlumnos {
                 System.out.println("¿A qué asignatura quieres asignarlo?\n" +
                         "1- Matemáticas\n" +
                         "2- Castellano\n" +
-                        "3- Ciencias");
+                        "3- Ciencias\n" +
+                        "4- Sin asignatura");
                 int opcAsignatura = sc.nextInt();
                 sc.nextLine();
                 switch (opcAsignatura) {
